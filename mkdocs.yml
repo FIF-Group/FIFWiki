@@ -1,0 +1,58 @@
+site_name: FIF Wiki
+site_author: FIF Group
+site_url:
+site_description: >-
+  A Wiki For FIF(Fullstar Institute of Fenglogy at Hsient'ao, Hupei)
+
+repo_name: 
+repo_url:
+copyright: Copyright &copy; 2019-present <a href="" target="_blank" rel="noopener noreferrer">FIF Group</a>
+
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+  static_templates:
+    - 404.html
+  language: zh
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to light mode
+    primary: blue
+    accent: purple
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+    primary: blue
+    accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/
