@@ -1,2 +1,2 @@
-# FIFWiki
-Wiki For FIF.
+# VonWiki
+Wiki For FIF
