@@ -1,15 +1,16 @@
 site_name: FIF Wiki
 site_author: FIF Group
-site_url:
+site_url: https://FIF-Group.github.io/FIFWiki
 site_description: >-
   A Wiki For FIF(Fullstar Institute of Fenglogy at Hsient'ao, Hupei)
 
-repo_name: 
+repo_name: FIFWiki
 repo_url:
-copyright: Copyright &copy; 2019-present <a href="" target="_blank" rel="noopener noreferrer">FIF Group</a>
+copyright: Copyright &copy; 2019-present <a href="https://github.com/FIF-Group" target="_blank" rel="noopener noreferrer">FIF Group</a>
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tracking
     - navigation.top
@@ -55,4 +56,5 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/
+      link: https://github.com/FIF-Group
+      
