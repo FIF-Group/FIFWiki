@@ -1,8 +1,7 @@
-# levelorder_traversal
 ---
 comments: true
 ---
-
+# levelorder_traversal
 # -1
 byd之前折腾这wsl上面的git把写好的一小段搞不见了，现在凭回忆重写一下。
 
