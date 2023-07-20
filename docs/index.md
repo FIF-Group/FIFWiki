@@ -14,3 +14,4 @@ comments: true
 - VonGPT传
 - lyrics：汤逊湖北路的日子
 - 冯诗一首：采桑子.重游博雅湖
+- 科幻冯文：上帝之脑
